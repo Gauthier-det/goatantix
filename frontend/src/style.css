@@ -1,0 +1,41 @@
+:root {
+  --bg: #0a0b0d;
+  --bg-grad: #0a0b0d;
+  --panel: #16171b;
+  --border: #2b2c33;
+  --text: #f3f5f4;
+  --muted: #92969e;
+
+  --accent: #2ee6a6;
+  --accent-shadow: #0f7a4f;
+  --accent2: #17b890;
+  --accent2-shadow: #0d6a56;
+  --accent3: #0b8f66;
+  --accent3-shadow: #06583d;
+  --hot-gold: #ffc94d;
+  --danger: #f2777b;
+  --input-bg: #1c1e22;
+  --on-accent: #07140d;
+
+  color-scheme: dark;
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-grad);
+  background-attachment: fixed;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: 'Baloo 2', 'Poppins', sans-serif;
+}

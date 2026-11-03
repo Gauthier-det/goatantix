@@ -1,0 +1,25 @@
+backend/.venv/
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+backend/data/raw/
+backend/data/models/
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Dev server PIDs (scripts/run helpers)
+.pids/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
