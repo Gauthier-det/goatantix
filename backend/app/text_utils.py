@@ -2,10 +2,7 @@ import re
 
 from unidecode import unidecode
 
-# A "word" token is a run of unicode letters/digits (mixed, e.g. "2k17"), optionally
-# joined by an apostrophe (e.g. "j'ai"). Anything else (spaces, newlines, punctuation)
-# is kept as-is and always visible.
-_TOKEN_RE = re.compile(r"[^\W_]+(?:['’][^\W_]+)*|[^\w\s]+|\s+", re.UNICODE)
+_TOKEN_RE = re.compile(r"[^\W_]+|[^\w\s]+|\s+", re.UNICODE)
 
 
 def tokenize(text: str) -> list[dict]:
